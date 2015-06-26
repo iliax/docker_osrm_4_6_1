@@ -25,4 +25,5 @@ RUN echo "disk=/tmp/stxxl,20000,mmap" > .stxxl
 VOLUME /srv/data
 VOLUME /tmp
 
-EXPOSE 5000 # maybe run osrm server here
+# maybe run osrm server here
+EXPOSE 5000 
